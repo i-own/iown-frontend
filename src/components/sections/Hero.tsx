@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowRight, Home } from "lucide-react";
 
 export const Hero = () => {
   return (
