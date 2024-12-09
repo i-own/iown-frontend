@@ -2,9 +2,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "iown - Fractional Real Estate Investment",
+  title: "Own - Real Assets On-Chain",
   description:
-    "Invest in premium Airbnb properties worldwide with crypto magic",
+    "First fully decentralized protocol for tokenized real-world assets.",
 };
 
 export default function RootLayout({
