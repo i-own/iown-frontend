@@ -1,2 +1,2 @@
-i.own: Fractionalizing Real Estate with Crypto Magic
+Own: First fully decentralised protocol for tokenized real-world assets.
 
