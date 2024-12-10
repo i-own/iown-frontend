@@ -1,12 +1,12 @@
 import { type NextPage } from "next";
-// import { Navbar } from "@/components/Navbar";
+import { Navbar } from "@/components/Navbar";
 import { BackgroundEffects } from "@/components/BackgroundEffects";
 
 const Home: NextPage = () => {
   return (
     <main>
       <BackgroundEffects />
-      {/* <Navbar /> */}
+      <Navbar />
 
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 pt-20">
