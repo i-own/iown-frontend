@@ -1,6 +1,8 @@
 import { type NextPage } from "next";
 import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 import { BackgroundEffects } from "@/components/BackgroundEffects";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -24,32 +26,19 @@ const Home: NextPage = () => {
             <button className="px-8 py-4 bg-blue-500 rounded-xl hover-scale glow">
               Launch App
             </button>
-            <button className="px-8 py-4 bg-white/10 rounded-xl hover-scale">
+            <Link
+              href="https://own-6.gitbook.io/own-docs/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-white/10 rounded-xl hover:scale-105 transition-transform text-center inline-block"
+            >
               Learn More →
-            </button>
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-6 py-12">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="text-sm text-gray-400">© 2024 Own</div>
-            <div className="flex gap-8">
-              <a href="#" className="text-sm text-gray-400 hover:text-white">
-                Docs
-              </a>
-              <a href="#" className="text-sm text-gray-400 hover:text-white">
-                Twitter
-              </a>
-              <a href="#" className="text-sm text-gray-400 hover:text-white">
-                Discord
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 };
