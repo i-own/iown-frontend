@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer className="border-t border-white/10">
@@ -5,15 +7,27 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-sm text-gray-400">© 2024 Own</div>
           <div className="flex gap-8">
-            <a href="#" className="text-sm text-gray-400 hover:text-white">
+            <Link
+              href="https://own-6.gitbook.io/own-docs"
+              target="_blank"
+              className="text-sm text-gray-400 hover:underline"
+            >
               Docs
-            </a>
-            <a href="#" className="text-sm text-gray-400 hover:text-white">
+            </Link>
+            <Link
+              href="https://x.com/iownco"
+              target="_blank"
+              className="text-sm text-gray-400 hover:underline"
+            >
               Twitter
-            </a>
-            <a href="#" className="text-sm text-gray-400 hover:text-white">
+            </Link>
+            <Link
+              href="https://discord.gg/9XmqKvv8"
+              target="_blank"
+              className="text-sm text-gray-400 hover:underline"
+            >
               Discord
-            </a>
+            </Link>
           </div>
         </div>
       </div>

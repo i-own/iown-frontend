@@ -29,7 +29,6 @@ const Home: NextPage = () => {
             <Link
               href="https://own-6.gitbook.io/own-docs/"
               target="_blank"
-              rel="noopener noreferrer"
               className="px-8 py-4 bg-white/10 rounded-xl hover:scale-105 transition-transform text-center inline-block"
             >
               Learn More →
