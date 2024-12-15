@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-4 bg-blue-500 rounded-xl hover-scale glow">
-              Launch App
+              Launching Soon
             </button>
             <Link
               href="https://own-6.gitbook.io/own-docs/"
