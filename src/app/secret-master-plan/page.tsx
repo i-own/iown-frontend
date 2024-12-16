@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import Link from "next/link";
 
 const SecretMasterPlan: NextPage = () => {
   return (
@@ -16,7 +17,14 @@ const SecretMasterPlan: NextPage = () => {
             (Just between you & me)
           </p>
           <p className="text-sm text-gray-400 text-center mb-12">
-            Bhargav Aparoksham, Core Contributor, Own Protocol DAO, 15 Dec 2024.
+            <Link
+              href="https://x.com/0xbhargav"
+              target="_blank"
+              className="hover:underline hover:text-black"
+            >
+              Bhargav Aparoksham
+            </Link>
+            , Founding Contributor, Own Protocol DAO, 15 Dec 2024.
           </p>
           <article className="text-black-300 space-y-8">
             <p>
@@ -131,9 +139,7 @@ const SecretMasterPlan: NextPage = () => {
             <h2 className="text-3xl font-semibold">The Master Plan</h2>
             <ol className="list-decimal pl-6 space-y-2">
               <li>Launch a simple yield farm backed by Own Tokens.</li>
-              <li>
-                Use the funds to build the first pool backed by real assets.
-              </li>
+              <li>Use that to build the first pool backed by real assets.</li>
               <li>Scale the protocol to every liquid real-world asset.</li>
             </ol>
 
@@ -141,9 +147,17 @@ const SecretMasterPlan: NextPage = () => {
               &quot;Don’t tell anyone.&quot;
             </p>
             <p>
-              Credits: This post is inspired by Tesla Master Plan by Elon Musk.{" "}
-              <br /> <br />
-              To know more, read our docs or join our discord.
+              Credits: This post is inspired by{" "}
+              <Link
+                href="https://www.tesla.com/secret-master-plan"
+                target="_blank"
+                className="underline"
+              >
+                Tesla Master Plan
+              </Link>{" "}
+              by Elon Musk. <br /> <br />
+              To know more about the protocol, read our docs or join our
+              discord.
             </p>
           </article>
         </div>
