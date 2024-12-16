@@ -138,8 +138,13 @@ const SecretMasterPlan: NextPage = () => {
 
             <h2 className="text-3xl font-semibold">The Master Plan</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>Launch a simple yield farm backed by Own Tokens.</li>
-              <li>Use that to build the first pool backed by real assets.</li>
+              <li>
+                Build the first pool backed by a real-world asset to validate
+                the MVP.
+              </li>
+              <li>
+                Create a protocol enabling anyone to launch pools for any asset.
+              </li>
               <li>Scale the protocol to every liquid real-world asset.</li>
             </ol>
 
